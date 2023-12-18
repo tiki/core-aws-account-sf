@@ -58,7 +58,7 @@ Resources:
                   - athena:getQueryExecution
                   - athena:getDataCatalog
                 Resource:
-                  - !Sub arn:aws:athena:${AWS::Region}:${AWS::AccountId}:workgroup/${WorkGroup}
+                  - !Sub arn:aws:athena:${AWS::Region}:${AWS::AccountId}:workgroup/*
                   - !Sub arn:aws:athena:${AWS::Region}:${AWS::AccountId}:datacatalog/*
               - Effect: Allow
                 Action:

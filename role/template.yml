@@ -55,7 +55,6 @@ Resources:
               - iam:AttachRolePolicy
               - iam:DetachRolePolicy
             Resource:
-              - !Sub arn:aws:iam::${AWS::AccountId}:role/core-subscription-step-FunctionRole-*
               - !Sub arn:aws:iam::${AWS::AccountId}:role/StepFunctionCoreSubscription
           - Effect: Allow
             Action: iam:PassRole
