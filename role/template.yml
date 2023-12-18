@@ -17,7 +17,7 @@ Resources:
         SemanticVersion: 0.0.3
       Parameters:
         GitHubOrg: tiki
-        RepositoryName: core-subscription
+        RepositoryName: core-aws-account-sf
         RoleName: !Ref RoleName
 
   Policy:
